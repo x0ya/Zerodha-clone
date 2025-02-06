@@ -1,0 +1,192 @@
+body{
+    margin: 0px;
+    font-family: "Arial", sans-serif;
+}
+button{
+    height: 25px;
+    width: 150px;
+    background-color: #387ed1;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+    border-radius: 3px;
+    cursor: pointer;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+/*Hovers*/
+
+nav .nav2 .nav-text:hover {
+    color: dodgerblue;
+}
+button:hover {
+    background-color: black;
+}
+.Container .Cloumn1 .Para4 p span a:hover {
+    color: black !important;
+}
+.Container .Cloumn2 span a:hover {
+    color: black;
+}
+.Pricing-link a:hover {
+    color: black;
+}
+.Uni-para a:hover {
+    color: black !important;
+}
+.Socials ul li a img:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.press a img:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.Footer .Lis1:hover {
+    color: dodgerblue;
+}
+.Footer-Para2 p span a:hover {
+    color: black !important;
+}
+.Final-Footer ul li a:hover {
+    color: #0d0d0d;
+}
+
+/*Hovers*/
+
+.nav img {
+    cursor: pointer;
+}
+.nav2 span {
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    border-bottom: 0.5px solid rgb(233, 234, 233);
+    padding: 15px 100px;
+}
+nav div .nav2 span {
+    font-size: smaller;
+    color: #424242;
+}
+.moto {
+    font-weight: 300;
+    color: #424242;
+}
+.quote {
+    font-weight: 100;
+
+}
+.Cloumn2 a img{
+    width: 500px;
+    height: 500px;
+}
+.Container {
+    font-weight: lighter;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 125px;
+    color: #424242;
+}
+.Cloumn2 span a {
+    display: inline-block;
+    padding: 100px 50px;
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.press {
+    display: flex;
+    padding: 0 150px 100px 150px;
+}
+.Pricing {
+    padding: 0 20px 120px 20px;
+}
+
+.Flex-pricing {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+.Pricing-img{
+    width: 50px;
+    height: 50px;
+    font-size: xx-small;
+}
+.Pricing-para {
+    height: 120px;
+    width: 380px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.Pricing-link span a{
+    text-decoration: none;
+    color: dodgerblue;
+    padding: 0 0 0 170px;
+}
+
+.Uni-sec {
+    display: flex;
+    justify-content: center;
+}
+
+.Uni-para{
+    width: 350px;
+    height: 150px;
+    padding: 10px 50px 25px 100px;
+}
+.Uni-img img{
+    width: 250px;
+    height: 250px;
+    padding: 25px 50px 25px 50px;
+}
+.Sign2 h2 {
+    font-weight: lighter;
+}
+.Sign2 p {
+    color: #666;
+}
+
+.Footer {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: x-small;
+    justify-content: space-evenly;
+    border-top: 0.5px solid rgb(233, 234, 233);
+}
+
+.Socials ul li a {
+    padding: 5px;
+}
+.Head {
+    font-weight: bold;
+    color: #424242;
+}
+
+.Footer .Lis1 {
+    padding: 5px;
+    color: #666;
+    cursor: pointer;
+}
+.Footer-Para2{
+    padding: 0 100px;
+    font-size: xx-small;
+    color: #666
+}
+.Final-Footer ul li a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: xx-small;
+    color: #666;
+}
+ .Final-Footer ul {
+    display: flex;
+    justify-content: center;
+ }
