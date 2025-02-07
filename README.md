@@ -4,12 +4,18 @@ This project is a clone of the Zerodha landing page, built entirely using raw HT
 - HTML5  
 - CSS3 
 ## Features  
-- Responsive Design  
+- Responsive Design
+- Compatible with mobile devices  
 - Clean, Minimalistic UI  
 - Built with Pure HTML & CSS
 ## Project Preview  
 
+### Desktop View
 ![Zerodha Landing Page Clone](Screenshot.png)
+
+### Mobile View
+![Zerodha Landing Page Clone](Screenshot2.png)
+
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/x0ya/Zerodha-clone)  
 ![GitHub stars](https://img.shields.io/github/stars/x0ya/Zerodha-clone?style=social)  
