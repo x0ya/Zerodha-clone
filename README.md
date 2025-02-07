@@ -14,7 +14,7 @@ This project is a clone of the Zerodha landing page, built entirely using raw HT
 ![Zerodha Landing Page Clone](Screenshot.png)
 
 ### Mobile View
-![Zerodha Landing Page Clone](./Img/Screenshot2.png)
+![Zerodha Landing Page Clone](Img/Screenshot2.png)
 
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/x0ya/Zerodha-clone)  
