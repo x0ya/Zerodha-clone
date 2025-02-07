@@ -1,0 +1,279 @@
+body{
+    margin: 0px;
+    font-family: "Arial", sans-serif;
+}
+button{
+    height: 35px;
+    width: 150px;
+    background-color: #387ed1;
+    color: #fff;
+    border: 10px solid rgba(0, 0, 0, 0) !important;
+    border-radius: 3px;
+    cursor: pointer;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+/*Hovers*/
+
+nav .nav2 .nav-text:hover {
+    color: dodgerblue;
+}
+button:hover {
+    background-color: black;
+}
+.Container .Cloumn1 .Para4 p span a:hover {
+    color: black !important;
+}
+.Container .Cloumn2 span a:hover {
+    color: black;
+}
+.Pricing-link a:hover {
+    color: black;
+}
+.Uni-para a:hover {
+    color: black !important;
+}
+.Socials ul li a img:hover {
+    opacity: 0.6;
+    transition: 0.1s;
+}
+.press a img:hover {
+    opacity: 0.6;
+    transition: 0.1s;
+}
+.Footer .Lis1:hover {
+    color: dodgerblue;
+}
+.Footer-Para2 p span a:hover {
+    color: black !important;
+}
+.Final-Footer ul li a:hover {
+    color: #0d0d0d;
+}
+.Dropdown:hover {
+    opacity: .6;
+    transition: .2s;
+    cursor: pointer;
+}
+
+/*Hovers*/
+
+.nav img {
+    cursor: pointer;
+}
+.nav2 span {
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    border-bottom: 0.5px solid rgb(233, 234, 233);
+    padding: 15px 60px 15px 100px;
+}
+nav div .nav2 span {
+    font-size: medium;
+    color: #424242;
+}
+.moto {
+    font-weight: 300;
+    color: #424242;
+}
+.quote {
+    font-weight: 100;
+
+}
+.Cloumn1 {
+    padding-top: 50px;
+}
+.Cloumn2 a img{
+    width: 500px;
+    height: 500px;
+}
+.Container {
+    font-weight: lighter;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 180px;
+    color: #424242;
+}
+.Cloumn2 span a {
+    display: inline-block;
+    padding: 100px 50px;
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.press {
+    display: flex;
+    justify-content: center;
+    padding: 0 150px 100px 150px;
+}
+.Pricing {
+    padding: 50px 225px;
+}
+
+.Flex-pricing {
+    display: flex;
+    
+}
+.Pricing-img{
+    width: 50px;
+    height: 50px;
+    font-size: xx-small;
+    padding-left: 600px;
+}
+.Pricing-para {
+    height: 120px;
+    width: 380px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.Pricing-link span a{
+    text-decoration: none;
+    color: dodgerblue;
+    padding: 0 0 0 225px;
+}
+
+.Uni-sec {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.Uni-para{
+    width: 350px;
+    height: 150px;
+    padding: 20px 50px 25px 100px;
+}
+.Uni-img img{
+    width: 250px;
+    height: 250px;
+    padding: 50px 50px 25px 50px;
+}
+.Sign2 h2 {
+    font-weight: lighter;
+}
+.Sign2 p {
+    color: #666;
+}
+
+.Footer {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: x-small;
+    justify-content: space-evenly;
+    border-top: 0.5px solid rgb(233, 234, 233);
+}
+
+.Socials ul li a {
+    padding: 5px;
+}
+.Head {
+    font-weight: bold;
+    color: #424242;
+}
+
+.Footer .Lis1 {
+    padding: 5px;
+    color: #666;
+    cursor: pointer;
+}
+.Footer-Para2{
+    padding: 0 100px;
+    font-size: xx-small;
+    color: #666
+}
+.Final-Footer ul li a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: xx-small;
+    color: #666;
+}
+ .Final-Footer ul {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ @media (max-width: 768px) {
+    html, body {
+        overflow-x: hidden !important;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    * {
+        box-sizing: inherit;
+    }
+    
+    .Container, .nav, .Footer {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .nav2{
+        display: none;
+    }
+    .nav {
+        padding: 10px ;
+    }
+    nav img {
+        padding-right: 10px 0px 0px 10px;
+    }
+    .First-img {
+        width: 400px;
+    }
+    .Container {
+        flex-direction: column;
+        padding: 50px 0px;
+    }
+    .Container .Cloumn1{
+        padding: 10px;
+    }
+    .Container .Cloumn2 a img{
+        padding-left: 50px;
+        width: 350px;
+        height: 200;
+    }
+    .Cloumn2 span a{
+        padding: 30px;
+        display: inline;
+    }
+    .press img {
+        padding: 50px 5px;
+        width: 380px;
+    }
+    .Pricing {
+        padding: 0px 50px;
+    }
+    .Uni-sec {
+        flex-direction: column;
+    }
+    .Uni-img  {
+        padding: 5px 50px;
+    }
+    .Uni-para{
+        padding: 5px 30px;
+    }
+    .Sign2 {
+        padding: 80px 30px 10px 30px;
+    }
+    .Footer {
+        font-size: small;
+        flex-direction: column;
+    }
+    .Footer-Para2 {
+        font-size: smaller;
+        padding: 5px 20px;
+    }
+    .Final-Footer ul {
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+ }
