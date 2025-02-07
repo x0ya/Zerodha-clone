@@ -11,7 +11,7 @@ This project is a clone of the Zerodha landing page, built entirely using raw HT
 ## Project Preview  
 
 ### Desktop View
-![Zerodha Landing Page Clone](Screenshot.png)
+![Zerodha Landing Page Clone](./Img/Screenshot.png)
 
 ### Mobile View
 ![Zerodha Landing Page Clone](Img/Screenshot2.png)
