@@ -1,5 +1,9 @@
 # Zerodha Landing Page Clone
 This project is a clone of the Zerodha landing page, built entirely using raw HTML and CSS. It replicates the clean minimalistic design of the original Zerodha website without using any external frameworks.
+
+## Live Demo
+Check out the live website here: [Zerodha Landing Page Clone](https://x0ya.github.io/Zerodha-clone/)
+
 ## Tech Stack  
 - HTML5  
 - CSS3 
